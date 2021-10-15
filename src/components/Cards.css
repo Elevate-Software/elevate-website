@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+.team-cards {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-color: #171d29;
+  text-align: center;
+  align-items: center;
+}
+
+.cards {
+    background: #0d111a;
+    text-align: center;
+}
+
+.team-cards .card-img-top{
+  -webkit-transition: transform 1s ease-in-out;
+  -moz-transition: transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+}
+
+.team-cards .card-img-top:hover{
+  -moz-transform: scale(1.07);
+  -webkit-transform: scale(1.07);
+  -o-transform: scale(1.07);
+  -ms-transform: scale(1.07);
+  -webkit-transform: scale(1.07);
+  transform: scale(1.07);
+}
+
+.team-cards .headings h1 {
+    font-weight: 900 !important;
+}
+
+.team-cards .team-image {
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.card-social-insta{
+  height: 22px;
+}
+
+.card-social-insta:hover{
+   color:gray;
+}
+
+.team-cards .team-label {
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+  padding: .3rem .5rem;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800px;
+  background-color: #7E00FF;
+}
+
+.team-cards h5.cards__item__text{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: black;
+}
+
+.team-cards .card-body{
+  background-color: #fff;
+}

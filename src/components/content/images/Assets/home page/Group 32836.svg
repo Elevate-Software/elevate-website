@@ -1,0 +1,31 @@
+<svg width="1920" height="1024" viewBox="0 0 1920 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1920" height="1024">
+<rect width="1920" height="1024" fill="#ECECEC"/>
+</mask>
+<g mask="url(#mask0)">
+<rect width="1920" height="1024" transform="matrix(-1 0 0 1 1920.59 0)" fill="#0F101D"/>
+<circle r="817" transform="matrix(-1 0 0 1 1575.78 147.334)" stroke="#3A3C4B"/>
+<circle opacity="0.03" r="817" transform="matrix(-1 0 0 1 1575.78 147.334)" fill="#D8D8D8"/>
+<circle r="379" transform="matrix(-1 0 0 1 119 129.479)" stroke="#3A3C4B"/>
+<circle opacity="0.03" r="379" transform="matrix(-1 0 0 1 119 129.479)" fill="#D8D8D8"/>
+<circle r="194.5" transform="matrix(-1 0 0 1 70.7573 -35.5884)" stroke="#3A3C4B"/>
+<circle opacity="0.03" r="194.5" transform="matrix(-1 0 0 1 70.7573 -35.5884)" fill="#D8D8D8"/>
+<circle r="672.5" transform="matrix(-1 0 0 1 1935.09 -10.5)" stroke="#3A3C4B"/>
+<circle opacity="0.03" r="672.5" transform="matrix(-1 0 0 1 1935.09 -10.5)" fill="#D8D8D8"/>
+<circle r="369" transform="matrix(-1 0 0 1 1889.73 -124.618)" stroke="#3A3C4B"/>
+<circle opacity="0.03" r="369" transform="matrix(-1 0 0 1 1889.73 -124.618)" fill="#D8D8D8"/>
+<circle r="5" transform="matrix(-1 0 0 1 1638.71 144.858)" fill="#3E404E"/>
+<circle r="5" transform="matrix(-1 0 0 1 1916.71 243.858)" fill="#3E404E"/>
+<circle r="5" transform="matrix(-1 0 0 1 1271.71 95.8584)" fill="#3E404E"/>
+<circle r="5" transform="matrix(-1 0 0 1 1359.71 336.858)" fill="#3E404E"/>
+<circle r="5" transform="matrix(-1 0 0 1 1521.61 519.539)" fill="#3E404E"/>
+<circle r="5" transform="matrix(-1 0 0 1 1768.8 640.357)" fill="#3E404E"/>
+<circle r="5" transform="matrix(-1 0 0 1 760.574 96.2588)" fill="#3E404E"/>
+<circle r="5" transform="matrix(-1 0 0 1 202.872 106.513)" fill="#3E404E"/>
+<circle r="5" transform="matrix(-1 0 0 1 495.786 166.955)" fill="#3E404E"/>
+<circle r="5" transform="matrix(-1 0 0 1 441.638 328.868)" fill="#3E404E"/>
+<circle r="5" transform="matrix(-1 0 0 1 274.514 474.963)" fill="#3E404E"/>
+<circle r="5" transform="matrix(-1 0 0 1 782.973 345.012)" fill="#3E404E"/>
+<circle r="5" transform="matrix(-1 0 0 1 853.753 536.053)" fill="#3E404E"/>
+</g>
+</svg>

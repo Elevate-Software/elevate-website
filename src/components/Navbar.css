@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@900&display=swap');
+
+ .social-media {
+     background-color: #812EE6;
+     height: 30px;
+     width: 100%;
+     text-align: right;
+     z-index: 998;
+}
+ .custom-nav {
+    background-color: rgb(23, 29, 41, 0.9);
+    border-bottom: 1px solid;
+    height: 70px;
+    z-index: 1000 !important;
+}
+/*.social-media-container {
+     margin: auto;
+     width: 80%;
+     padding-top: 3px;
+}
+ */
+ .social-media-container {
+     margin: auto;
+     width: 64%;
+}
+ .navbar-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 80px;
+     max-width: 1500px;
+}
+.logo{
+     height: 60px;
+     padding-left: 15px;
+}
+.social-media .logo:hover{
+     cursor: pointer;
+}
+ .social-icons{
+     height: 20px;
+     padding-left: 15px;
+     padding-top: 5px;
+}
+ .social-media .social-icons:hover {
+     cursor: pointer;
+}
+ .navbar-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 80px;
+     max-width: 1500px;
+}
+ .navbar-logo {
+     color: #fff;
+     justify-self: start;
+     cursor: pointer;
+     text-decoration: none;
+     font-size: 2rem;
+     display: flex;
+     align-items: center;
+     font-family: 'Rubik', sans-serif;
+     font-weight: 900;
+}
+
+.sticky-top {
+    position: fixed;
+    top: 0;
+    width:100%;
+}
+
+.mobile-menu {
+    height: 70px;
+}
+
+.custom-nav .custom-navbar {
+    height: 70px;
+}
+
+.custom-nav .custom-navbar a.custom-link:not(.navbrand) {
+    position: relative;
+    color: #888;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 100px;
+    transition: all .1s ease-in-out;
+    text-decoration: none !important;
+}
+
+.custom-nav .custom-navbar a.active:not(.navbrand) {
+    color: #FFF;
+}
+
+.custom-nav .custom-navbar a:hover:not(.navbrand) {
+    color: #FFF;
+}
+
+a.navbrand {
+    font-size:20px;
+}
+
+@media(max-width: 991.98px) {
+    .custom-navbar {
+        position: fixed;
+        left: -300px;
+        width: 300px;
+        top: 0;
+        height: 100vh !important;
+        background-color: rgb(23, 29, 41, 1);
+        padding-top: 50px;
+        justify-content: flex-start !important;
+        z-index: 1001;
+        transition: all .2s ease-in;
+    }
+  
+    .custom-navbar.open {
+        left: 0;
+        height: 100vh;
+        z-index: 1001 !important;
+    }
+  
+    .custom-nav .custom-navbar a:not(.navbrand) {
+      width:100%;
+      height: 50px !important;
+      line-height: 50px !important;
+    }
+}

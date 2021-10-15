@@ -1,0 +1,80 @@
+.howtobuy {
+    padding-top: 10rem;
+
+    background: #222836;
+    text-align: center;
+    align-items: center;
+}
+
+.howtobuy .card.border-0.shadow{
+    background-color: #171d29;
+}
+
+.howtobuy-header {
+    padding-bottom: 3rem;
+}
+
+.howtobuy-display {
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+}
+
+.htb-steps{
+    width: 90%;
+    margin:auto;
+    display: inline-block;
+    word-break: break-word;
+}
+
+.howtobuy div{
+    color: #fff;
+}
+
+.howtobuy .buy-spacer{
+    height: 3rem;
+}
+
+.htb-steps .buy-image{
+    padding: 2rem 3rem 2rem 2rem;
+    text-align: left;
+}
+
+.htb-step{
+    text-align: left;
+}
+
+.htb-substep{
+    padding: 0rem 3rem 1rem 2rem;
+    text-align: left;
+}
+
+.howtobuy p a{
+    color: #7E00FF;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    color:#7E00FF;
+    font-size: 32px;
+}
+
+.howtobuy .anchor {
+    padding-top: 50px;
+    margin-top: -150px;
+}
+
