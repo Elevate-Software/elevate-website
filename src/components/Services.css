@@ -1,69 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik:wght@500;700;900&display=swap');
 
-.news-cards {
+.services-cards {
   padding: 3rem;
-  background: #171d29;
+  background: #ffffff;
 }
 
 .pulse {
   animation: pulse-info 2s infinite;
 }
 
-.news-card {
+.services-card {
   background-color: #7E00FF;
   color: white;
   border-radius: 8px;
 }
 
-.news-card-comingsoon {
+.services-card-comingsoon {
   background-color: #7E00FF;
   color: white;
   border-radius: 8px;
 
 }
 
-.news-card-comingsoon-dark {
+.services-card-comingsoon-dark {
   background-color:#222836;
   color: white;
   border-radius: 8px;
 }
 
-.news-card-dark {
+.services-card-dark {
   background-color:#222836;
   color: white;
   border-radius: 8px;
 }
 
-.news-label {
+.services-label {
   background-color: rgba(0,0,0,0.2);
   font-weight: 900;
   font-size: 20px;
   padding: 1rem 0;
 }
 
-.news-button {
+.services-button {
   background-color: #6400CB;
   border-color: #6400CB;
   color: #EFEFEF;
   font-weight: 900;
 }
 
-.news-button:hover, .news-button:focus, .news-button:active {
+.services-button:hover, .services-button:focus, .services-button:active {
   color: #EFEFEF;
   background-color: #5b03b3;
   border-color: #5b03b3;
   box-shadow: none !important;
 }
 
-.news-card-dark .news-button {
+.services-card-dark .services-button {
   color: #EFEFEF;
   background-color: #171D29;
   border-color: #171D29;
 }
 
-.news-card-dark .news-button:hover, 
-.news-card-dark .news-button:focus, 
-.news-card-dark .news-button:active {
+.services-card-dark .services-button:hover, 
+.services-card-dark .services-button:focus, 
+.services-card-dark .services-button:active {
   color: #EFEFEF;
   background-color: #131822;
   border-color: #131822;

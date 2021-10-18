@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-/*video {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -1;
-}*/
 
 img.fluid {
     object-fit: cover;
@@ -20,10 +13,7 @@ img.fluid {
     background: url('content/images/hero-image.svg') center center no-repeat;
     background-size: cover;
     width: 100%;
-    /* align-items: left; */
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
-    /* margin: auto; */
-    /* max-width: 1500px; */
     align-items: center;
     overflow: hidden;
     background-color: black;
