@@ -8,18 +8,21 @@
      text-align: right;
      z-index: 998;
 }
+.navlink{
+    padding-top: .4em;
+}
+.btn-nav{
+    background-color: #ffffff !important;
+    padding: 8px 25px 8px 25px !important;
+    font-size: .8rem !important;
+    font-weight: 600 !important;
+}
  .custom-nav {
     background-color: rgb(23, 29, 41, 0.9);
     border-bottom: 1px solid;
     height: 70px;
     z-index: 1000 !important;
 }
-/*.social-media-container {
-     margin: auto;
-     width: 80%;
-     padding-top: 3px;
-}
- */
  .social-media-container {
      margin: auto;
      width: 64%;

@@ -61,41 +61,40 @@ class Navbar extends Component {
 
                             <div className="d-flex flex-column flex-lg-row text-center">
                                 <div className="flex-fill">
-                                    <a href="/#" className="custom-link px-4">
+                                    <a href="/#" className="custom-link px-4 navlink">
                                         Home
                                     </a>
                                 </div>
 
                                 <div className="flex-fill">
-                                    <a href="/#team" className="custom-link px-4">
+                                    <a href="/#team" className="custom-link px-4 navlink">
                                         Team
                                     </a>
                                 </div>
 
                                 <div className="flex-fill">
-                                    <a href="/#team" className="custom-link px-4">
+                                    <a href="/#team" className="custom-link px-4 navlink">
                                         Services
                                     </a>
                                 </div>
 
                                 <div className="flex-fill">
-                                    <a href="/#team" className="custom-link px-4">
+                                    <a href="/#team" className="custom-link px-4 navlink">
                                         Collaborations
                                     </a>
                                 </div>
 
                                 <div className="flex-fill">
-                                    <a href="/#team" className="custom-link px-4">
+                                    <a href="/#team" className="custom-link px-4 navlink">
                                         Contact Us
                                     </a>
                                 </div>
 
                                 <div className="flex-fill">
-                                    <Link to="/buy" className="custom-link px-4">
-                                        Get In Touch
-                                    </Link>
+                                    <div className="btn btn-nav btn-lg">
+                                            Get In Touch
+                                    </div>
                                 </div>
-
 
                             </div>
                         </div>
