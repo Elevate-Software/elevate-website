@@ -9,10 +9,10 @@ function Hero() {
         <div className='hero'>
             <div className='container'>
 
-                <div className="d-flex hero-container align-items-center row">
+                <div className="d-flex hero-container row">
                     <div className="hero-text col-sm-7">
 
-                        <h4 className="mb-0">We are a Software Development Tech Company</h4>
+                        <h4>We are a Software Development Tech Company</h4>
                         <h1>Ultimate Tech Solution For Business Automation</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         
