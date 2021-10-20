@@ -3,6 +3,8 @@ import '../../App.css';
 import Hero from '../Hero';
 import Services from '../Services';
 import Team from '../Cards';
+import Hire from '../Hire';
+import Crypto from '../Crypto';
 import Footer from '../Footer';
 
 function Home () {
@@ -11,6 +13,8 @@ function Home () {
             <Hero />
             <Services/>
             <Team />
+            <Hire />
+            <Crypto />
             <Footer/>
         </>
     )

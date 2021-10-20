@@ -1,0 +1,21 @@
+.hire {
+    background-color: #ffffff;
+}
+
+.hire .hire-blue-text{
+    color: #3C5AE7;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.hire .hire-black-text{
+    color: #0F101D;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.hire-image{
+    width: 70rem;
+}

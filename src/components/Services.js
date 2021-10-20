@@ -102,15 +102,17 @@ function Cards() {
                             </Card>
                         </Col>
                         <Col xs={12} xl={4}>
-                            <div>
-                                Need Help?
-                            </div>
-                            <div className="btn btn-primary btn-lg px-5"
-                                    onClick={() => {
-                                        window.open("", "_blank")
-                                    }}
-                                >Contact Us
+                            <div className="services-contact">
+                                <div className="need-help">
+                                    Need Help?
                                 </div>
+                                <div className="btn btn-primary btn-sm px-3"
+                                        onClick={() => {
+                                            window.open("", "_blank")
+                                        }}
+                                    >Contact Us
+                                </div>
+                            </div>
                         </Col>
                     </Row>
                 </Container>

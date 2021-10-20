@@ -84,3 +84,13 @@
   width: 4.5rem;
   float: left;
 }
+
+.services-contact{
+  text-align: center;
+}
+
+.need-help{
+  font-size: 1.2rem;
+  font-family: poppins;
+  font-weight: 700;
+}

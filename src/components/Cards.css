@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
 .team-cards {
+  background: url('content/images/experts-image.svg') center center no-repeat;
   padding-top: 10rem;
   padding-bottom: 10rem;
-  background-color: #171d29;
   text-align: center;
   align-items: center;
 }
@@ -29,7 +29,8 @@
 }
 
 .team-cards .headings h1 {
-    font-weight: 900 !important;
+    font-weight: 200;
+    font-family: poppins;
 }
 
 .team-cards .team-image {
