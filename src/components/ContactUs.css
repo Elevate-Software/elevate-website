@@ -1,0 +1,39 @@
+.contact-section{
+    background-color: #ffffff !important;
+    padding: 2rem;
+}
+
+.ContactForm-blue-background{
+    background-color: #F5F7FF;
+    padding: 5rem;
+}
+
+.ContactForm-blue-text{
+    color: #3C5AE7;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.ContactForm-black-text{
+    color: #0F101D;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.ContactForm-image{
+    width: 70rem;
+}
+
+.contact-form-input{
+    margin: 2rem;
+}
+
+.ContactForm .form-control{
+    margin: 1rem;
+}
+
+.contact-btn{
+    float: right;
+}

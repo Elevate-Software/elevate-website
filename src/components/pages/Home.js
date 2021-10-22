@@ -6,6 +6,7 @@ import Team from '../Cards';
 import Hire from '../Hire';
 import Crypto from '../Crypto';
 import Footer from '../Footer';
+import ContactForm from '../ContactUs'
 
 function Home () {
     return (
@@ -15,6 +16,7 @@ function Home () {
             <Team />
             <Hire />
             <Crypto />
+            <ContactForm />
             <Footer/>
         </>
     )
