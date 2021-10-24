@@ -21,6 +21,24 @@ const ContactForm = () => {
     console.log('Phone: ', phone);
     console.log('Company: ', company);
     console.log('Message: ', message);
+
+    try {
+      const templateParams = {
+        name,
+        email,
+        phone,
+        company,
+        message
+      };
+      await emailjs.send(
+        'service_i4wcqjd',
+        'template_he39fvm',
+        templateParams,
+      );
+      reset();
+    } catch (e) {
+      console.log(e);
+    }
   };
 
   return (

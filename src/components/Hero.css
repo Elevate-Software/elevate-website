@@ -111,12 +111,8 @@ h6 {
     margin-top: 32px;
 }
 
-.pancake-img {
-    transform: scale(.4, .3);
-}
-
 .hero-button .btns {
-    margin: 6px;
+    margin: .5em;
 }
 
 .fa-play-circle {

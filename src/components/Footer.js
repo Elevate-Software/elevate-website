@@ -1,66 +1,114 @@
 import React from 'react'
 import './Footer.css';
-
-//shift alt f
-// to format
+import { Container, Card, Row, Col } from 'react-bootstrap';
 
 function Footer() {
     return (
-        <div className="footer-main">
-            <div className="page-footer font-small">
-                <div className="footer-copyright text-center py-4">© 2021 Copyright Nobility LLC | All Rights Reserved</div>
-            </div>
-            {/* <footer className="page-footer font-small blue pt-4">
-                <div className="container-fluid text-center text-md-left">
-                    <div className="row">
-                        <div class="col-md-6 mt-md-0 mt-3">
-                            <h5 class="text-uppercase">Footer Content</h5>
-                            <p>Here you can use rows and columns to organize your footer content.</p>
-                        </div>
-                            <hr class="clearfix w-100 d-md-none pb-3">
-                            <div class="col-md-3 mb-md-0 mb-3">
-                                <h5 class="text-uppercase">Links</h5>
-                                <ul class="list-unstyled">
-                                    <li>
-                                    <a href="#!">Link 1</a>
-                                    </li>
-                                    <li>
-                                    <a href="#!">Link 2</a>
-                                    </li>
-                                    <li>
-                                    <a href="#!">Link 3</a>
-                                    </li>
-                                    <li>
-                                    <a href="#!">Link 4</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-md-3 mb-md-0 mb-3">
-                                <h5 class="text-uppercase">Links</h5>
-                                <ul class="list-unstyled">
-                                    <li>
-                                    <a href="#!">Link 1</a>
-                                    </li>
-                                    <li>
-                                    <a href="#!">Link 2</a>
-                                    </li>
-                                    <li>
-                                    <a href="#!">Link 3</a>
-                                    </li>
-                                    <li>
-                                    <a href="#!">Link 4</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    
-                <div class="footer-copyright text-center py-3">© 2020 Copyright:
-                    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
-                </div>
-            </footer> */}
-        </div>
-    )
+        <div className="container">
+        <div className="row">
+              <div className="col-md-12">
+                  <footer className="footer">				
+              <div className="container">
+                  <div className="row">
+                      <div className="col-md-3 m-b-30">
+                      <img src={require('./content/images/ElevateLogo.png').default} className='logo' />
+                          <p className="white-text">
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 text of the printing.
+                          </p>
+                          <div >
+                                  <a href="#">
+                                  <img src={require('./content/images/facebook.svg').default} className='social-logo' />
+                                  </a>
+                                  <a href="#">
+                                  <img src={require('./content/images/twitter.svg').default} className='social-logo' />
+                                  </a>
+                                  <a href="#">
+                                  <img src={require('./content/images/instagram.svg').default} className='social-logo' />
+                                  </a>
+                                  <a href="#">
+                                  <img src={require('./content/images/instagram.svg').default} className='social-logo' />
+                                  </a>
+                          </div>
+                      </div>
+                      <div className="col-md-3 m-b-30">
+                          <div className="footer-title m-t-5 m-b-20 p-b-8">
+                              Resources
+                          </div>	
+                          <div className="footer-links">
+                              <a href="#">
+                                  Download
+                              </a>
+                              <a href="#">
+                                  Help Center
+                              </a>
+                              <a href="#">
+                                  Events
+                              </a>
+                              <a href="#">
+                                  Guides
+                              </a>
+                              <a href="#">
+                                  Partner
+                              </a>
+                              <a href="#">
+                                  Directories
+                              </a>
+                          </div>
+                      </div>
+                      <div className="col-md-3 m-b-30">
+                          <div className="footer-title m-t-5 m-b-20 p-b-8">
+                              Company
+                          </div>	
+                          <div className="footer-links">
+                              <a href="#">
+                                  About us
+                              </a>
+                              <a href="#">
+                                  Contact us
+                              </a>
+                              <a href="#">
+                                  Products
+                              </a>
+                              <a href="#">
+                                  Login
+                              </a>
+                              <a href="#">
+                                  Sign Up
+                              </a>
+                              <a href="#">
+                                  FAQ
+                              </a>
+                          </div>
+                      </div>
+                      <div className="col-md-3 m-b-30">
+                          <div className="footer-title m-t-5 m-b-20 p-b-8">
+                              Get in Touch with Us
+                          </div>	
+                          <div className="footer-links">
+                              <a href="#">
+                                 832  Thompson, San Fransisco
+                                CA 94107, United States
+                              </a>
+                              <a href="#">
+                                 394-091-3312
+                              </a>
+                              <a href="#">
+                                support@elevate.com
+                              </a>
+                          </div>
+      
+
+                      </div>
+                  </div>
+              </div>
+          </footer>
+          <div className="footer-bottom">
+              Copyright © 2021, All Rights Reserved
+          </div>
+              </div>
+          </div>
+      </div>
+    );
 }
 
 export default Footer

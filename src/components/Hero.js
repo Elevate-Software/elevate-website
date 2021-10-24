@@ -19,13 +19,13 @@ function Hero() {
                         <div className="d-flex">
                             <div className="hero-button">
 
-                                <div className="btn btn-primary btn-lg px-5"
+                                <div className="btn btn-primary btn-lg px-5 btns"
                                     onClick={() => {
                                         window.open("", "_blank")
                                     }}
                                 >Our Services 
                                 </div>
-                                <div className="btn btn-secondary btn-lg px-5"
+                                <div className="btn btn-secondary btn-lg px-5 btns"
                                     onClick={() => {
                                         window.open("", "_blank")
                                     }}
