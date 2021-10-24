@@ -19,5 +19,6 @@
 .hire-image{
     max-width: 70rem;
     width: 100%;
-    height: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }

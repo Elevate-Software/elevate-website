@@ -104,6 +104,10 @@ a.navbrand {
     font-size:20px;
 }
 
+.mobile-logo{
+    max-width: 10rem;
+}
+
 @media(max-width: 991.98px) {
     .custom-navbar {
         position: fixed;

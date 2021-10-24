@@ -9,8 +9,8 @@ function Hero() {
         <div className='hero'>
             <div className='container'>
 
-                <div className="d-flex hero-container row">
-                    <div className="hero-text col-sm-7">
+            <div className="row justify-content-center hero-container">
+                    <div className="col-12 col-lg-7">
 
                         <h4>We are a Software Development Tech Company</h4>
                         <h1>Ultimate Tech Solution For Business Automation</h1>
@@ -36,7 +36,7 @@ function Hero() {
                         </div>
 
                     </div>
-                    <div  className="hero-image col-sm-5">
+                    <div className="col-12 col-lg-5">
                         <img className="dev-image" src={require('./content/images/DevImage.svg').default} alt="Elevate" />               
                     </div>                  
                 </div>

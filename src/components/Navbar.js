@@ -78,7 +78,7 @@ class Navbar extends Component {
 
                         <div className="d-flex d-lg-none justify-content-between align-items-center mobile-menu">
                             <a href="/" className="navbrand text-white">
-                                <img src={require('./content/images/nobility-logo1.png').default} className='logo' />
+                                <img src={require('./content/images/ElevateLogo.png').default} className='mobile-logo' />
                             </a>
                             <div>
                                 <a href="" className="btn btn-link text-white btn-lg px-3 menu-btn" id="toggleMenu">

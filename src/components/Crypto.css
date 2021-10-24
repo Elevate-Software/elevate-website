@@ -21,7 +21,8 @@ img.fluid {
 }
 
 .crypto-image{
-    width: 30rem;
+    max-width: 70rem;
+    width: 100%;
     margin: auto;
     display: block;
 }
@@ -31,5 +32,10 @@ img.fluid {
 }
 
 .crypto-text{
-    color: black
+    color: black;
+    font-size: 0.7rem !important;
+}
+
+.crypto-container {
+    padding-top: 10em;
 }

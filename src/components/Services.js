@@ -7,19 +7,21 @@ function Cards() {
     return (
         <>
             <div className="services-cards">
-                <Container className="large-container">
-                    <Row className="align-items-center pb-5">
+                <Container>
+                    <Row className="text-lg-right pb-5">
                         <Col xs={12} xl={4}>
-                            <div className="our-services">
-                                <span style={{color:'#3C5AE7'}}>Our</span><span style={{color:'#0F101D', fontWeight:'900'}}> Services</span>
-                            </div>
-                            <div className="services-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non est cons equat metus mattis vestibulum. Proin sit amet massa massa. Pellentesque fermentum. Curabitur non est cons equat metus mattis. metus mattis vestibulu massa.
+                            <div className="services-text">
+                                <div className="our-services">
+                                    <span style={{color:'#3C5AE7'}}>Our</span><span style={{color:'#0F101D', fontWeight:'900'}}> Services</span>
+                                </div>
+                                <div className="services-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non est cons equat metus mattis vestibulum. Proin sit amet massa massa. Pellentesque fermentum. Curabitur non est cons equat metus mattis. metus mattis vestibulu massa.
+                                </div>
                             </div>
                         </Col>
                         <Col xs={12} xl={4}>
-                            <Card className='services-card' style={{ width: '18rem', margin: '3em' }}>
-                                <Card.Body>   
+                            <Card className='services-card'>
+                                <Card.Body >   
                                 <div><img className="service-image" src={require('./content/images/wordpress.svg').default} alt="Elevate"/></div>                                 
                                     <Card.Title>Wordpress sites and plugins</Card.Title>
                                     <Card.Text style={{float:'left'}}>
@@ -30,7 +32,7 @@ function Cards() {
                             </Card>
                         </Col>
                         <Col xs={12} xl={4}>
-                            <Card className='services-card' style={{ width: '18rem', margin: '3em' }}>
+                            <Card className='services-card'>
                                 <Card.Body>   
                                 <div><img className="service-image" src={require('./content/images/react-apps.svg').default} alt="Elevate"/></div>                                 
                                     <Card.Title>React Apps</Card.Title>
@@ -42,7 +44,7 @@ function Cards() {
                             </Card>
                         </Col>
                         <Col xs={12} xl={4}>
-                            <Card className='services-card' style={{ width: '18rem', margin: '3em' }}>
+                            <Card className='services-card'>
                                 <Card.Body>   
                                 <div><img className="service-image" src={require('./content/images/cloud-apps.svg').default} alt="Elevate"/></div>                                 
                                     <Card.Title>Cloud Apps</Card.Title>
@@ -54,7 +56,7 @@ function Cards() {
                             </Card>
                         </Col>
                         <Col xs={12} xl={4}>
-                            <Card className='services-card' style={{ width: '18rem', margin: '3em' }}>
+                            <Card className='services-card'>
                                 <Card.Body>   
                                 <div><img className="service-image" src={require('./content/images/mobile-apps.svg').default} alt="Elevate"/></div>                                 
                                     <Card.Title>Mobile Apps</Card.Title>
@@ -66,7 +68,7 @@ function Cards() {
                             </Card>
                         </Col>
                         <Col xs={12} xl={4}>
-                            <Card className='services-card' style={{ width: '18rem', margin: '3em' }}>
+                            <Card className='services-card'>
                                 <Card.Body>   
                                 <div><img className="service-image" src={require('./content/images/general-tech-solutions.svg').default} alt="Elevate"/></div>                                 
                                     <Card.Title>General Tech Solutions</Card.Title>
@@ -78,7 +80,7 @@ function Cards() {
                             </Card>
                         </Col>
                         <Col xs={12} xl={4}>
-                            <Card className='services-card' style={{ width: '18rem', margin: '3em' }}>
+                            <Card className='services-card'>
                                 <Card.Body>   
                                 <div><img className="service-image" src={require('./content/images/windows-services.svg').default} alt="Elevate"/></div>                                 
                                     <Card.Title>Windows Services</Card.Title>
@@ -90,7 +92,7 @@ function Cards() {
                             </Card>
                         </Col>
                         <Col xs={12} xl={4}>
-                            <Card className='services-card' style={{ width: '18rem', margin: '3em' }}>
+                            <Card className='services-card'>
                                 <Card.Body>   
                                 <div><img className="service-image" src={require('./content/images/automation.svg').default} alt="Elevate"/></div>                                 
                                     <Card.Title>Automation</Card.Title>

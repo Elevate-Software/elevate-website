@@ -8,7 +8,6 @@ function Hire() {
     return (
         <div className='hire'>
             <div className='container'>
-
                 <div className="d-flex hero-container row">
                     <div className="hero-text col-sm-12 text-center">
                         <div className="hire-blue-text">Hire Developers with</div>
@@ -16,8 +15,6 @@ function Hire() {
                         <img className="hire-image" src={require('./content/images/hire-image.svg').default} alt="Elevate"/>
                     </div>             
                 </div>
-                
-                
             </div> 
         </div>
     )
