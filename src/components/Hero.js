@@ -12,8 +12,8 @@ function Hero() {
             <div className="row justify-content-center hero-container">
                     <div className="col-12 col-lg-7">
 
-                        <h4>We are a Software Development Tech Company</h4>
-                        <h1>Ultimate Tech Solution For Business Automation</h1>
+                        <h4>We are a Software Development Company</h4>
+                        <h1>Ultimate Tech Solutions For Business Automation</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         
                         <div className="d-flex">
