@@ -14,8 +14,8 @@ function Experts() {
                     <div className="hero-text col-sm-12 text-center">
                         <div className='headings mb-5'>
                             <div>
-                                <h1 className="text-white">Our <span style={{fontWeight:"600"}}>Experts</span></h1>
-                                <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />Curabitur non est cons equat metus mattis vestibulum. Proin sit amet massa massa. Pellentesque.</p>
+                                <h1 className="text-white">Our <span style={{fontWeight:"600"}}>Team</span></h1>
+                                <p className="text-white">Our dedicated team of developers have more than 25 years of combined experience. <br />Curabitur non est cons equat metus mattis vestibulum. Proin sit amet massa massa. Pellentesque.</p>
                             </div>
                         </div>
 
