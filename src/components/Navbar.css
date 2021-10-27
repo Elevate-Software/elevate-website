@@ -18,8 +18,6 @@
     font-weight: 600 !important;
 }
  .custom-nav {
-    background-color: rgb(23, 29, 41, 0.9);
-    border-bottom: 1px solid;
     height: 70px;
     z-index: 1000 !important;
 }

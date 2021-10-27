@@ -13,7 +13,7 @@ function Crypto() {
                 <div className='container'>
                     <div className="hero-text col-sm-12 text-center">
                         <div className='headings mb-5'>
-                            <div data-aos="zoom-in-up">
+                            <div>
                                 <h1 className="text-white">Crypto <span style={{fontWeight:"600"}}>automation</span></h1>
                                 <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />Curabitur non est cons equat metus mattis vestibulum. Proin sit amet massa massa. Pellentesque.</p>
                             </div>
@@ -23,7 +23,7 @@ function Crypto() {
                             <Row className="align-items-center pb-5">
                                 <Col xs={12} xl={6}>
                                 <img className="crypto-image" src={require('./content/images/chance-raffler.svg').default} alt="Elevate"/> 
-                                    <Card className='services-card' style={{ width: '18rem', margin: 'auto' }}>
+                                    <Card className='crypto-card' style={{ width: '18rem', margin: 'auto' }}>
                                         <Card.Body>                                        
                                             <Card.Title className="crypto-title">Chance the raffler</Card.Title>
                                             <Card.Text className="crypto-text" style={{float:'left'}}>
@@ -34,7 +34,7 @@ function Crypto() {
                                 </Col>
                                 <Col xs={12} xl={6}>
                                 <img className="crypto-image" src={require('./content/images/crypto-checks.svg').default} alt="Elevate"/> 
-                                    <Card className='services-card' style={{ width: '18rem', margin: 'auto' }}>
+                                    <Card className='crypto-card' style={{ width: '18rem', margin: 'auto' }}>
                                         <Card.Body>                
                                             <Card.Title className="crypto-title">Crypto Checks</Card.Title>
                                             <Card.Text className="crypto-text" style={{float:'left'}}>

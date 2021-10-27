@@ -10,7 +10,7 @@ function Cards() {
                 <Container>
                     <Row className="text-lg-right pb-5">
                         <Col xs={12} xl={4}>
-                            <div className="services-text">
+                            <div className="services-text mx-auto">
                                 <div className="our-services">
                                     <span style={{color:'#3C5AE7'}}>Our</span><span style={{color:'#0F101D', fontWeight:'900'}}> Services</span>
                                 </div>
@@ -20,7 +20,7 @@ function Cards() {
                             </div>
                         </Col>
                         <Col xs={12} xl={4}>
-                            <Card className='services-card'>
+                            <Card className='services-card mx-auto'>
                                 <Card.Body >   
                                 <div><img className="service-image" src={require('./content/images/wordpress.svg').default} alt="Elevate"/></div>                                 
                                     <Card.Title>Wordpress sites and plugins</Card.Title>
@@ -32,7 +32,7 @@ function Cards() {
                             </Card>
                         </Col>
                         <Col xs={12} xl={4}>
-                            <Card className='services-card'>
+                            <Card className='services-card mx-auto'>
                                 <Card.Body>   
                                 <div><img className="service-image" src={require('./content/images/react-apps.svg').default} alt="Elevate"/></div>                                 
                                     <Card.Title>React Apps</Card.Title>
@@ -44,7 +44,7 @@ function Cards() {
                             </Card>
                         </Col>
                         <Col xs={12} xl={4}>
-                            <Card className='services-card'>
+                            <Card className='services-card mx-auto'>
                                 <Card.Body>   
                                 <div><img className="service-image" src={require('./content/images/cloud-apps.svg').default} alt="Elevate"/></div>                                 
                                     <Card.Title>Cloud Apps</Card.Title>
@@ -56,7 +56,7 @@ function Cards() {
                             </Card>
                         </Col>
                         <Col xs={12} xl={4}>
-                            <Card className='services-card'>
+                            <Card className='services-card mx-auto'>
                                 <Card.Body>   
                                 <div><img className="service-image" src={require('./content/images/mobile-apps.svg').default} alt="Elevate"/></div>                                 
                                     <Card.Title>Mobile Apps</Card.Title>
@@ -68,7 +68,7 @@ function Cards() {
                             </Card>
                         </Col>
                         <Col xs={12} xl={4}>
-                            <Card className='services-card'>
+                            <Card className='services-card mx-auto'>
                                 <Card.Body>   
                                 <div><img className="service-image" src={require('./content/images/general-tech-solutions.svg').default} alt="Elevate"/></div>                                 
                                     <Card.Title>General Tech Solutions</Card.Title>
@@ -80,7 +80,7 @@ function Cards() {
                             </Card>
                         </Col>
                         <Col xs={12} xl={4}>
-                            <Card className='services-card'>
+                            <Card className='services-card mx-auto'>
                                 <Card.Body>   
                                 <div><img className="service-image" src={require('./content/images/windows-services.svg').default} alt="Elevate"/></div>                                 
                                     <Card.Title>Windows Services</Card.Title>
@@ -92,7 +92,7 @@ function Cards() {
                             </Card>
                         </Col>
                         <Col xs={12} xl={4}>
-                            <Card className='services-card'>
+                            <Card className='services-card mx-auto'>
                                 <Card.Body>   
                                 <div><img className="service-image" src={require('./content/images/automation.svg').default} alt="Elevate"/></div>                                 
                                     <Card.Title>Automation</Card.Title>
@@ -103,8 +103,8 @@ function Cards() {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col xs={12} xl={4}>
-                            <div className="services-contact">
+                        <Col xs={12} xl={4} className="my-auto">
+                            <div className="services-contact mx-auto ">
                                 <div className="need-help">
                                     Need Help?
                                 </div>

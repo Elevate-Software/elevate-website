@@ -8,7 +8,7 @@
 .footer-title{
 	position: relative;
     color: #fff;
-	font-size: 24px;
+	font-size: 1rem;
     font-weight: 600;
     margin-top: 5px;
     margin-bottom: 20px;
@@ -23,9 +23,13 @@
 	height: 4px;
 	background: #3C5AE7;
 }
+.footer-white-text{
+	font-size: .9rem;
+}
 .footer-links a{
 	padding: 10px 0;
 	color: #fff;
+	font-size: .9rem;
 	display: block;
 	transition: color 0.5s ease-in-out;
    text-decoration:none;
@@ -64,9 +68,10 @@
 	color: #fff;
 	background: #0F101D;
 }
-.logo{
+.footer-logo{
     height: 50px;
     padding-left: 15px;
+	max-width: 10rem;
 }
 .fa-facebook{
     background: url('content/images/facebook.svg')

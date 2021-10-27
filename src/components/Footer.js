@@ -11,8 +11,8 @@ function Footer() {
               <div className="container">
                   <div className="row">
                       <div className="col-md-3 m-b-30">
-                      <img src={require('./content/images/ElevateLogo.png').default} className='logo' />
-                          <p className="white-text">
+                      <img src={require('./content/images/ElevateLogo.png').default} className='footer-logo' />
+                          <p className="footer-white-text">
                               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 text of the printing.
                           </p>
                           <div >

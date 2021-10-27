@@ -33,6 +33,7 @@ const ContactForm = () => {
       await emailjs.send(
         'service_i4wcqjd',
         'template_he39fvm',
+        'user_TKVQ6NzTXIinbCMl840r7',
         templateParams,
       );
       reset();

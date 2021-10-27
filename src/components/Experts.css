@@ -9,8 +9,8 @@ img.fluid {
     z-index: -1;
 }
 
-.crypto {
-    background: url('content/images/crypto-image.svg') center center no-repeat;
+.experts {
+    background: url('content/images/experts-image.svg') center center no-repeat;
     background-size: cover;
     width: 100%;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
@@ -20,31 +20,40 @@ img.fluid {
     color: white;
 }
 
-.crypto-image{
+.experts-image{
     max-width: 70rem;
     width: 100%;
     margin: auto;
     display: block;
+    border-radius: 5px;
 }
 
-.crypto-title{
+.experts-title{
     color: black
 }
 
-.crypto-text{
+.experts-text{
     color: black;
     font-size: 0.7rem !important;
 }
 
-.crypto-container {
+.experts-container {
     padding-top: 10em;
 }
 
-.crypto-card {
+.experts-description {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 18rem;
     margin-bottom: 3em;
     position: relative;
     bottom: 45px;
+  }
+
+  .experts-card{
+      padding: 1rem 1rem 1rem 1rem;
+  }
+
+  .card-border{
+      border-bottom: solid 4px #3B41E3;
   }

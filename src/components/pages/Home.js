@@ -2,7 +2,7 @@ import React from 'react';
 import '../../App.css';
 import Hero from '../Hero';
 import Services from '../Services';
-import Team from '../Cards';
+import Experts from '../Experts'
 import Hire from '../Hire';
 import Crypto from '../Crypto';
 import Footer from '../Footer';
@@ -13,7 +13,7 @@ function Home () {
         <>
             <Hero />
             <Services/>
-            <Team />
+            <Experts />
             <Hire />
             <Crypto />
             <ContactForm />
