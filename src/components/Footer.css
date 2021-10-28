@@ -13,22 +13,14 @@
     margin-top: 5px;
     margin-bottom: 20px;
 }
-.footer-title:after{
-	position: absolute;
-	content: '';
-	left: 0;
-	bottom: 0;
-	width: 30px;
-	height: 4px;
-	background: #3C5AE7;
-}
+
 .footer-white-text{
-	font-size: .9rem;
+	font-size: .8rem;
 }
 .footer-links a{
 	padding: 10px 0;
-	color: #fff;
-	font-size: .9rem;
+	color: #D1D1D1;
+	font-size: .8rem;
 	display: block;
 	transition: color 0.5s ease-in-out;
    text-decoration:none;
@@ -39,6 +31,11 @@
 .footer-social-links li{
 	display: inline-block;
 }
+
+.links-column{
+	padding-left: 7rem;
+}
+
 .footer-social-links a{
 	width: 40px;
 	height: 40px;
@@ -78,4 +75,25 @@
 .social-logo{
     width: 3em;
     margin: .2em;
+}
+@media only screen
+  and (max-width: 480px) {
+     .footer {
+        text-align: center;
+    }
+	.links-column{
+		padding-left: 0rem;
+	}
+
+}
+
+@media only screen
+  and (max-width: 700px) {
+     .footer {
+        text-align: center;
+    }
+	.links-column{
+		padding-left: 0rem;
+	}
+	
 }

@@ -12,6 +12,7 @@ function Hire() {
                     <div className="hero-text col-sm-12 text-center">
                         <div className="hire-blue-text">Hire Developers with</div>
                         <div className="hire-black-text">Programming Expertise</div>
+                        <p className="hire-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />Curabitur non est cons equat metus mattis vestibulum. Proin sit amet massa massa. Pellentesque.</p>
                         <img className="hire-image" src={require('./content/images/hire-image.svg').default} alt="Elevate"/>
                     </div>             
                 </div>

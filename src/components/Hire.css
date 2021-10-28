@@ -22,3 +22,9 @@
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
+
+.hire-description{
+    color: black;
+    font-size: 0.8rem !important;
+    font-family: Poppins;
+}

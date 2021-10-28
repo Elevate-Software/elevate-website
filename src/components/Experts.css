@@ -29,12 +29,16 @@ img.fluid {
 }
 
 .experts-title{
-    color: black
+    color: black;
+    font-family: Poppins;
+    font-weight: 900;
+
 }
 
 .experts-text{
     color: black;
-    font-size: 0.7rem !important;
+    font-size: 0.8rem !important;
+    font-family: Poppins;
 }
 
 .experts-container {
