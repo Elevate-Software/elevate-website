@@ -6,7 +6,7 @@ import { Container, Card, Row, Col } from 'react-bootstrap';
 function Cards() {
     return (
         <>
-            <div className="services-cards">
+            <div id="services" className="services-cards">
                 <Container>
                     <Row className="text-lg-right pb-5">
                         <Col xs={12} xl={4}>

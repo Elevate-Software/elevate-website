@@ -8,7 +8,7 @@ import { Container, Card, Row, Col } from 'react-bootstrap';
 function Experts() {
     return (
         <>
-        <div className="experts">
+        <div id="team" className="experts">
              <div className="d-flex hero-container row">
                 <div className='container'>
                     <div className="hero-text col-sm-12 text-center">

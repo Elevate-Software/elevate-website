@@ -33,8 +33,8 @@ const ContactForm = () => {
       await emailjs.send(
         'service_i4wcqjd',
         'template_he39fvm',
-        'user_TKVQ6NzTXIinbCMl840r7',
         templateParams,
+        'user_TKVQ6NzTXIinbCMl840r7',
       );
       reset();
     } catch (e) {
@@ -43,7 +43,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className='ContactForm contact-section'>
+    <div id="contact" className='ContactForm contact-section'>
       <div className='container'>
         <div className='row'>
           <div className='col-12 text-center'>

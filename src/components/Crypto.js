@@ -8,7 +8,7 @@ import { Container, Card, Row, Col } from 'react-bootstrap';
 function Crypto() {
     return (
         <>
-        <div className="crypto">
+        <div id="crypto" className="crypto">
              <div className="d-flex hero-container row">
                 <div className='container'>
                     <div className="hero-text col-sm-12 text-center">
