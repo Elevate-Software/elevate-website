@@ -23,7 +23,7 @@ function Cards() {
                             <Card className='services-card mx-auto'>
                                 <Card.Body >   
                                 <div><img className="service-image" src={require('./content/images/wordpress.svg').default} alt="Elevate"/></div>                                 
-                                    <Card.Title>Wordpress sites and plugins</Card.Title>
+                                    <Card.Title className="services-title">Wordpress sites and plugins</Card.Title>
                                     <Card.Text style={{float:'left'}}>
                                     Some quick example text to build on the card title and make up the bulk of
                                     the card's content.
@@ -35,7 +35,7 @@ function Cards() {
                             <Card className='services-card mx-auto'>
                                 <Card.Body>   
                                 <div><img className="service-image" src={require('./content/images/react-apps.svg').default} alt="Elevate"/></div>                                 
-                                    <Card.Title>React Apps</Card.Title>
+                                    <Card.Title className="services-title">React Apps</Card.Title>
                                     <Card.Text style={{float:'left'}}>
                                     Some quick example text to build on the card title and make up the bulk of
                                     the card's content.
@@ -47,7 +47,7 @@ function Cards() {
                             <Card className='services-card mx-auto'>
                                 <Card.Body>   
                                 <div><img className="service-image" src={require('./content/images/cloud-apps.svg').default} alt="Elevate"/></div>                                 
-                                    <Card.Title>Cloud Apps</Card.Title>
+                                    <Card.Title className="services-title">Cloud Apps</Card.Title>
                                     <Card.Text style={{float:'left'}}>
                                     Some quick example text to build on the card title and make up the bulk of
                                     the card's content.
@@ -59,7 +59,7 @@ function Cards() {
                             <Card className='services-card mx-auto'>
                                 <Card.Body>   
                                 <div><img className="service-image" src={require('./content/images/mobile-apps.svg').default} alt="Elevate"/></div>                                 
-                                    <Card.Title>Mobile Apps</Card.Title>
+                                    <Card.Title className="services-title">Mobile Apps</Card.Title>
                                     <Card.Text style={{float:'left'}}>
                                     Some quick example text to build on the card title and make up the bulk of
                                     the card's content.
@@ -71,7 +71,7 @@ function Cards() {
                             <Card className='services-card mx-auto'>
                                 <Card.Body>   
                                 <div><img className="service-image" src={require('./content/images/general-tech-solutions.svg').default} alt="Elevate"/></div>                                 
-                                    <Card.Title>General Tech Solutions</Card.Title>
+                                    <Card.Title className="services-title">General Tech Solutions</Card.Title>
                                     <Card.Text style={{float:'left'}}>
                                     Some quick example text to build on the card title and make up the bulk of
                                     the card's content.
@@ -83,7 +83,7 @@ function Cards() {
                             <Card className='services-card mx-auto'>
                                 <Card.Body>   
                                 <div><img className="service-image" src={require('./content/images/windows-services.svg').default} alt="Elevate"/></div>                                 
-                                    <Card.Title>Windows Services</Card.Title>
+                                    <Card.Title className="services-title">Windows Services</Card.Title>
                                     <Card.Text style={{float:'left'}}>
                                     Some quick example text to build on the card title and make up the bulk of
                                     the card's content.
@@ -95,7 +95,7 @@ function Cards() {
                             <Card className='services-card mx-auto'>
                                 <Card.Body>   
                                 <div><img className="service-image" src={require('./content/images/automation.svg').default} alt="Elevate"/></div>                                 
-                                    <Card.Title>Automation</Card.Title>
+                                    <Card.Title className="services-title">Automation</Card.Title>
                                     <Card.Text style={{float:'left'}}>
                                     Some quick example text to build on the card title and make up the bulk of
                                     the card's content.

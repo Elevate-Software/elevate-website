@@ -24,7 +24,7 @@ function Experts() {
                             <Col xs={12} xl={4} className="experts-card">
                                 <img className="experts-image" src={require('./content/images/team/chase.png').default} alt="Elevate"/> 
                                     <Card className='experts-description' style={{ width: '18rem', margin: 'auto' }}>
-                                        <Card.Body className="card-border">                
+                                        <Card.Body>                
                                             <Card.Title className="experts-title">Chase Brown</Card.Title>
                                             <Card.Text className="experts-text">
                                             CTO | Founder | Lead Developer
@@ -35,7 +35,7 @@ function Experts() {
                                 <Col xs={12} xl={4} className="experts-card">
                                 <img className="experts-image" src={require('./content/images/team/matt.png').default} alt="Elevate"/> 
                                     <Card className='experts-description' style={{ width: '18rem', margin: 'auto' }}>
-                                        <Card.Body className="card-border">                
+                                        <Card.Body>                
                                             <Card.Title className="experts-title">Matt Merrill</Card.Title>
                                             <Card.Text className="experts-text">
                                             Software Developer
@@ -46,7 +46,7 @@ function Experts() {
                                 <Col xs={12} xl={4} className="experts-card">
                                 <img className="experts-image" src={require('./content/images/team/will.png').default} alt="Elevate"/> 
                                     <Card className='experts-description' style={{ width: '18rem', margin: 'auto' }}>
-                                        <Card.Body className="card-border">                
+                                        <Card.Body>                
                                             <Card.Title className="experts-title">Will Lord</Card.Title>
                                             <Card.Text className="experts-text">
                                             Softare Developer
@@ -57,7 +57,7 @@ function Experts() {
                                 <Col xs={12} xl={4} className="experts-card">
                                 <img className="experts-image" src={require('./content/images/team/andrew.png').default} alt="Elevate"/> 
                                     <Card className='experts-description' style={{ width: '18rem', margin: 'auto' }}>
-                                        <Card.Body className="card-border">                
+                                        <Card.Body>                
                                             <Card.Title className="experts-title">Andrew Thomas</Card.Title>
                                             <Card.Text className="experts-text">
                                             Software Developer
@@ -68,7 +68,7 @@ function Experts() {
                                 <Col xs={12} xl={4} className="experts-card">
                                 <img className="experts-image" src={require('./content/images/team/zack.png').default} alt="Elevate"/> 
                                     <Card className='experts-description' style={{ width: '18rem', margin: 'auto' }}>
-                                        <Card.Body className="card-border">                
+                                        <Card.Body>                
                                             <Card.Title className="experts-title">Zack Swore</Card.Title>
                                             <Card.Text className="experts-text">
                                             Web Developer
@@ -79,7 +79,7 @@ function Experts() {
                                 <Col xs={12} xl={4} className="experts-card">
                                 <img className="experts-image" src={require('./content/images/team/jonathan.png').default} alt="Elevate"/> 
                                     <Card className='experts-description' style={{ width: '18rem', margin: 'auto' }}>
-                                        <Card.Body className="card-border">                
+                                        <Card.Body>                
                                             <Card.Title className="experts-title">Jonathan Ansumana</Card.Title>
                                             <Card.Text className="experts-text">
                                             Mobile App Developer
@@ -92,7 +92,7 @@ function Experts() {
                                 <Col xs={12} xl={4} className="experts-card">
                                 <img className="experts-image" src={require('./content/images/team/ben.png').default} alt="Elevate"/> 
                                     <Card className='experts-description' style={{ width: '18rem', margin: 'auto' }}>
-                                        <Card.Body className="card-border">                
+                                        <Card.Body>                
                                             <Card.Title className="experts-title">Ben Dixon</Card.Title>
                                             <Card.Text className="experts-text">
                                             CEO | Founder

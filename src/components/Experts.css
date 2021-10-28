@@ -21,7 +21,7 @@ img.fluid {
 }
 
 .experts-image{
-    max-width: 70rem;
+    max-width: 22rem;
     width: 100%;
     margin: auto;
     display: block;
@@ -48,12 +48,9 @@ img.fluid {
     margin-bottom: 3em;
     position: relative;
     bottom: 45px;
+    border-bottom: solid 4px #3B41E3;
   }
 
   .experts-card{
       padding: 1rem 1rem 1rem 1rem;
-  }
-
-  .card-border{
-      border-bottom: solid 4px #3B41E3;
   }

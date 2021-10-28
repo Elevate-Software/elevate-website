@@ -5,6 +5,11 @@
   background: #ffffff;
 }
 
+.services-title{
+  margin-left: 6rem;
+  margin-top: .1rem;
+}
+
 .pulse {
   animation: pulse-info 2s infinite;
 }
