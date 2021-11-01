@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+img.fluid {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.hero {
+    background: url('content/images/hero-image.svg') center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+    align-items: center;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+}
+
+.hero-container {
+    padding-top: 10em;
+}
+
+.hero-video {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+}
+
+.hero-video video {
+    top: 0;
+    height: 1000px;
+    position: absolute;
+    left: 50%;
+    margin-left: -900px;
+    z-index: 0;
+}
+
+.hero-container > h1 {
+    color: white;
+    font-size: 68px;
+    margin-top: -80px;
+    text-align: left;
+    width: 80%;
+}
+
+.hero-container > p {
+    margin-top: 8px;
+    color: white;
+    font-size: 16px;
+    width: 55%;
+    line-height: 20px;
+}
+
+
+.token-table {
+    padding: 2px 100px 0px 10px; /*top right bottom left*/
+}
+
+h5 {
+    color: white;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+h6 {
+    color: #6B6B6B;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.dev-image{
+    width: 25em;
+}
+
+.hero-text {
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
+.hero h4 {
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.hero p {
+    color: #D1D1D1;
+    font-family: 'Poppins', sans-serif;;
+    line-height: 20px;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.hero-button {
+    margin-top: 32px;
+}
+
+.hero-button .btns {
+    margin: .5em;
+}
+
+.fa-play-circle {
+    margin-left: 4px;
+}
+
+.pulse {
+    animation: pulse-info 2s infinite;
+}
+
+@media only screen
+  and (max-width: 480px) {
+     .hero-container {
+        text-align: center;
+    }
+
+}
+
+@media only screen
+  and (max-width: 700px) {
+     .hero-container {
+        text-align: center;
+    }
+}
+
+
+@keyframes pulse-info {
+    0% {
+        box-shadow:0 0 0 0 #7f25c9;
+   }
+    100% {
+        box-shadow:0 0 0 8px #28a74500;
+   }
+}
