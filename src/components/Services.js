@@ -25,8 +25,7 @@ function Cards() {
                                 <div><img className="service-image" src={require('./content/images/wordpress.svg').default} alt="Elevate"/></div>                                 
                                     <Card.Title className="services-title">Wordpress sites and plugins</Card.Title>
                                     <Card.Text style={{float:'left'}}>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                    Wordpress is one of the world's leading content management systems for building and hosting websites as it powers almost half of the websites that are currently published to the internet. 
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -37,8 +36,7 @@ function Cards() {
                                 <div><img className="service-image" src={require('./content/images/react-apps.svg').default} alt="Elevate"/></div>                                 
                                     <Card.Title className="services-title">React Apps</Card.Title>
                                     <Card.Text style={{float:'left'}}>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                    React is a javascript framework that allows developers to create seamless front end applications. With React we can create anything from a simple website to a full stack web application.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -49,8 +47,7 @@ function Cards() {
                                 <div><img className="service-image" src={require('./content/images/cloud-apps.svg').default} alt="Elevate"/></div>                                 
                                     <Card.Title className="services-title">Cloud Apps</Card.Title>
                                     <Card.Text style={{float:'left'}}>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                    Cloud hosting is the ability to host data management and computing power remotely. When building any kind of software you need to be able to host the application on a remote cloud server.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -61,8 +58,7 @@ function Cards() {
                                 <div><img className="service-image" src={require('./content/images/mobile-apps.svg').default} alt="Elevate"/></div>                                 
                                     <Card.Title className="services-title">Mobile Apps</Card.Title>
                                     <Card.Text style={{float:'left'}}>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                    Our team can develop seamless mobile applications to your liking. We use a framework known as React native which allows us to develop for both iOS and android with one codebase.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -73,8 +69,7 @@ function Cards() {
                                 <div><img className="service-image" src={require('./content/images/general-tech-solutions.svg').default} alt="Elevate"/></div>                                 
                                     <Card.Title className="services-title">General Tech Solutions</Card.Title>
                                     <Card.Text style={{float:'left'}}>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                    One of our more popular services is creating automated pieces of software such as automated trading bots, interactive telegram bots, or any process that can be automated with a program.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -85,8 +80,7 @@ function Cards() {
                                 <div><img className="service-image" src={require('./content/images/windows-services.svg').default} alt="Elevate"/></div>                                 
                                     <Card.Title className="services-title">Windows Services</Card.Title>
                                     <Card.Text style={{float:'left'}}>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                    A windows service is a computer program that runs in the background of Windows and can be used to implement background automation for computers running windows OS.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -97,8 +91,7 @@ function Cards() {
                                 <div><img className="service-image" src={require('./content/images/automation.svg').default} alt="Elevate"/></div>                                 
                                     <Card.Title className="services-title">Automation</Card.Title>
                                     <Card.Text style={{float:'left'}}>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                    One of our more popular services is creating automated pieces of software such as automated trading bots, interactive telegram bots, or any process that can be automated with a program. 
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
