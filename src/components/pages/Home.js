@@ -7,6 +7,7 @@ import Hire from '../Hire';
 import Crypto from '../Crypto';
 import Footer from '../Footer';
 import ContactForm from '../ContactUs'
+import Team from '../Team'
 
 function Home () {
     return (
@@ -14,6 +15,7 @@ function Home () {
             <Hero />
             <Services/>
             <Experts />
+            <Team/>
             <Hire />
             <Crypto />
             <ContactForm />
