@@ -11,7 +11,7 @@ function ServicesContent() {
             <div className="row justify-content-center services-content-container">
                     <div className="col-12 col-lg-6">
                         <h1>Our Services</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed morbi habitant laoreet dui, aliquet nibh placerat. Semper quam magna elementum vitae turpis id. Tincidunt mattis quam morbi enim eget. Pulvinar quis pharetra, scelerisque in. Platea vestibulum, felis leo congue urna. Ornare id augue dolor pulvinar ut.</p>
+                        <p>The Elevate Team continues to develop powerful, stable, and ground-breaking applications for our clients.</p>
                         
                         <div className="d-flex">
                             <div className="hero-button">

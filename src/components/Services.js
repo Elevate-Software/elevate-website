@@ -15,7 +15,7 @@ function Cards() {
                                     <span style={{color:'#3C5AE7'}}>Our</span><span style={{color:'#0F101D', fontWeight:'900'}}> Services</span>
                                 </div>
                                 <div className="services-description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non est cons equat metus mattis vestibulum. Proin sit amet massa massa. Pellentesque fermentum. Curabitur non est cons equat metus mattis. metus mattis vestibulu massa.
+                                    The Elevate Team continues to develop powerful, stable, and ground-breaking applications for our clients. Our developers retain a comprehensive understanding of best practices for any solution our client needs.
                                 </div>
                             </div>
                         </Col>
@@ -101,7 +101,7 @@ function Cards() {
                                 <div className="need-help">
                                     Need Help?
                                 </div>
-                                <div className="btn btn-primary btn-sm px-3"
+                                <div className="btn btn-primary btn-sm px-3 services-btn"
                                         onClick={() => {
                                             window.open("", "_blank")
                                         }}
