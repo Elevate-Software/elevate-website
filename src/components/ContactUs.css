@@ -5,7 +5,7 @@
 
 .ContactForm-blue-background{
     background-color: #F5F7FF;
-    padding: 5rem;
+    padding: 3rem 5rem 5rem 5rem;
 }
 
 .ContactForm-blue-text{
@@ -22,6 +22,10 @@
     font-size: 1.5em;
 }
 
+.contact-title {
+    margin-bottom: 2rem;
+}
+
 .ContactForm-image{
     width: 70rem;
 }
@@ -31,9 +35,12 @@
 }
 
 .ContactForm .form-control{
-    margin: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .contact-btn{
     float: right;
+    font-weight: 600;
+    font-size: 16px;
+    padding: .5em 2em .5em 2em !important;
 }

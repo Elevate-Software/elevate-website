@@ -14,7 +14,7 @@ function Crypto() {
                     <div className="hero-text col-sm-12 text-center">
                         <div className='headings mb-5'>
                             <div>
-                                <h1 className="text-white">Crypto <span style={{fontWeight:"600"}}>automation</span></h1>
+                                <h1 className="text-white">Crypto <span style={{fontWeight:"600"}}>Automation</span></h1>
                                 <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />Curabitur non est cons equat metus mattis vestibulum. Proin sit amet massa massa. Pellentesque.</p>
                             </div>
                         </div>
@@ -38,7 +38,7 @@ function Crypto() {
                                         <Card.Body>                
                                             <Card.Title className="crypto-title">Crypto Checks</Card.Title>
                                             <Card.Text className="crypto-text" style={{float:'left'}}>
-                                            automated trading bot that uses dollar-cost-averaging to optimize long term financial growth.
+                                            Trading bot that uses dollar-cost-averaging to optimize long term financial growth.
                                             </Card.Text>
                                         </Card.Body>
                                     </Card>

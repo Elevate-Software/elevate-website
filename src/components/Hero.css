@@ -9,6 +9,14 @@ img.fluid {
     z-index: -1;
 }
 
+.btn-hero {
+    width: 10rem;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    border-radius: 5px;
+}
+
 .hero {
     background: url('content/images/hero-image.svg') center center no-repeat;
     background-size: cover;
@@ -21,7 +29,7 @@ img.fluid {
 }
 
 .hero-container {
-    padding-top: 10em;
+    padding-top: 4.2em;
 }
 
 .hero-video {
@@ -76,7 +84,7 @@ h6 {
 }
 
 .dev-image{
-    width: 25em;
+    width: 32em;
 }
 
 .hero-text {

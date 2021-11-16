@@ -2951,8 +2951,10 @@
   
   .btn-primary {
     color: #fff;
-    background-image: linear-gradient(#3C93F0, #3B41E3);
-    border-image: linear-gradient(#3C93F0, #3B41E3);
+    /* background-image: linear-gradient(#3C93F0, #3B41E3);
+    border-image: linear-gradient(#3C93F0, #3B41E3); */
+    background-image: linear-gradient(254.02deg, #3C93F0 17.05%, #3B41E3 80.26%);
+    border:none;
   }
 
   
@@ -2983,8 +2985,8 @@
   
   .btn-secondary {
     color: #fff;
-    background-color: #ffffff13;
-    border-color: #ffffff13;
+    background-color: rgba(255, 255, 255, 0.13);
+    border-color: none;
   }
   .btn-secondary:hover {
     color: #fff;

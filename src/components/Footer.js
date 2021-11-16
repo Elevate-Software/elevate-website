@@ -11,7 +11,7 @@ function Footer() {
               <div className="container">
                   <div className="row">
                       <div className="col-md-3 m-b-30">
-                      <img src={require('./content/images/ElevateLogo.png').default} className='footer-logo' />
+                      <img src={require('./content/images/elevate-footer.png').default} className='footer-logo' />
                           <p className="footer-white-text">
                               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 text of the printing.
                           </p>
@@ -36,22 +36,19 @@ function Footer() {
                           </div>	
                           <div className="footer-links">
                               <a href="#">
-                                  Download
+                                  Home
                               </a>
                               <a href="#">
-                                  Help Center
+                                  Our Team
                               </a>
                               <a href="#">
-                                  Events
+                                  Services
                               </a>
                               <a href="#">
-                                  Guides
+                                  Automation
                               </a>
                               <a href="#">
-                                  Partner
-                              </a>
-                              <a href="#">
-                                  Directories
+                                  Contact Us
                               </a>
                           </div>
                       </div>
@@ -75,9 +72,6 @@ function Footer() {
                               <a href="#">
                                   Sign Up
                               </a>
-                              <a href="#">
-                                  FAQ
-                              </a>
                           </div>
                       </div>
                       <div className="col-md-3 m-b-30">
@@ -86,14 +80,13 @@ function Footer() {
                           </div>	
                           <div className="footer-links">
                               <a href="#">
-                                 832  Thompson, San Fransisco
-                                CA 94107, United States
+                                Scottsdale, AZ
                               </a>
                               <a href="#">
-                                 394-091-3312
+                                702-232-0352
                               </a>
                               <a href="#">
-                                support@elevate.com
+                                chase@elevatesoftware.io
                               </a>
                           </div>
       

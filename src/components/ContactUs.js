@@ -46,10 +46,10 @@ const ContactForm = () => {
         message
       };
       await emailjs.send(
-        'service_i4wcqjd',
-        'template_he39fvm',
+        'service_u4391yq',
+        'template_xx6zvr5',
         templateParams,
-        'user_TKVQ6NzTXIinbCMl840r7',
+        'user_cYbqEJb3HUuyDgRIeiY9J',
       );
       reset();
       toastifySuccess();
@@ -64,7 +64,7 @@ const ContactForm = () => {
         <div className='row'>
           <div className='col-12 text-center'>
             <div className='contactForm ContactForm-blue-background'>
-                <div><span className="ContactForm-blue-text">Write us</span><span className="ContactForm-black-text"> a message</span>
+                <div className='contact-title'><span className="ContactForm-blue-text">Write us</span><span className="ContactForm-black-text"> a message</span>
                 </div>
               <form id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
                 {/* Row 1 of form */}

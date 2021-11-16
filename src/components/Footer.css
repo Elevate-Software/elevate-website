@@ -63,11 +63,12 @@
 	text-align: center;
 	color: #fff;
 	background: #0F101D;
+	font-size: .7em;
 }
 .footer-logo{
-    height: 50px;
-    padding-left: 15px;
 	max-width: 10rem;
+	margin-bottom: 2em;
+	margin-top: .7em;;
 }
 .fa-facebook{
     background: url('content/images/facebook.svg')
