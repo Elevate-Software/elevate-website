@@ -10,7 +10,7 @@ function Hero() {
             <div className='container'>
             <Navbar />
             <div className="row justify-content-center hero-container">
-                    <div className="col-12 col-lg-6">
+                    <div className="col-12 col-lg-6 my-auto">
 
                         <h4>We are a Software Development Tech Company</h4>
                         <h1>Ultimate Tech Solution For Business Automation</h1>

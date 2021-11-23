@@ -50,7 +50,7 @@ class Navbar extends Component {
                                 </div>
 
                                 <div className="flex-fill">
-                                    <a href="/#services" className="custom-link px-4 navlink">
+                                    <a href="/Services" className="custom-link px-4 navlink">
                                         Services
                                     </a>
                                 </div>
@@ -68,7 +68,7 @@ class Navbar extends Component {
                                 </div> */}
 
                                 <div className="flex-fill">
-                                    <a href="/#contact">
+                                    <a href="/Contact">
                                         <div className="btn btn-nav btn-lg">
                                                 Contact Us
                                         </div>

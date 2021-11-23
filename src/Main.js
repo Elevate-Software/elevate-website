@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 
 const Home = React.lazy(() => import('./components/pages/Home'))
 const Services = React.lazy(() => import('./components/pages/Services'))
+const Contact = React.lazy(() => import('./components/pages/Contact'))
 const NotFoundPage = React.lazy(() => import('./components/pages/NotFoundPage'))
 
 const Main = () => {
@@ -13,6 +14,9 @@ const Main = () => {
             </Route>
             <Route exact path='/Services'>
                 <Suspense fallback={<div></div>}><Services /></Suspense>
+            </Route>
+            <Route exact path='/Contact'>
+                <Suspense fallback={<div></div>}><Contact /></Suspense>
             </Route>
             <Route component={NotFoundPage} />
         </Switch>

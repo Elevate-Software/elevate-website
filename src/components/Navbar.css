@@ -19,8 +19,15 @@
     font-size: .95rem !important;
     font-weight: 600 !important;
     margin-left: 1.4em;
+
 }
- .custom-nav {
+
+.btn-nav:hover{
+   background-color: #3B41E3 !important;
+   color: #ffffff !important;
+}
+
+.custom-nav {
     height: 70px;
     z-index: 1000 !important;
 }

@@ -25,10 +25,6 @@ img.fluid {
     width: 80%;
 }
 
-.services-image{
-    width: 20em;
-}
-
 .services-content-container > p {
     margin-top: 8px;
     color: #0F101D;
@@ -43,23 +39,12 @@ img.fluid {
      .services-container {
         text-align: center;
     }
-    .services-image {
-        display: none;
-    }
-    .dev-image{
-        display: none;
-    }
+
 }
 
 @media only screen
   and (max-width: 700px) {
      .services-container {
         text-align: center;
-    }
-    .services-image {
-        display: none;
-    }
-    .dev-image{
-        display: none;
     }
 }

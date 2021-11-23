@@ -9,22 +9,6 @@ img.fluid {
     z-index: -1;
 }
 
-.btn-hero {
-    width: 10rem;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 30px;
-    border-radius: 5px;
-}
-
-.btn-primary:hover{
-    opacity: 80%;
-}
-
-.btn-secondary:hover {
-    opacity: 90%;
- }
-
 .hero {
     background: url('content/images/hero-image.svg') center center no-repeat;
     background-size: cover;
@@ -37,7 +21,7 @@ img.fluid {
 }
 
 .hero-container {
-    padding-top: 4.2em;
+    padding-top: 10em;
 }
 
 .hero-video {
@@ -91,8 +75,8 @@ h6 {
     font-weight: 500;
 }
 
-.dev-image{
-    width: 32em;
+.contact-image{
+    width: 20em;
 }
 
 .hero-text {
@@ -141,9 +125,10 @@ h6 {
      .hero-container {
         text-align: center;
     }
-    .dev-image{
+    .contact-image{
         display: none;
     }
+
 }
 
 @media only screen
@@ -151,7 +136,7 @@ h6 {
      .hero-container {
         text-align: center;
     }
-    .dev-image{
+    .contact-image{
         display: none;
     }
 }
