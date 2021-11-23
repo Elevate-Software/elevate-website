@@ -9,7 +9,7 @@ function ServicesHero() {
         <div className='hero'>
             <div className='container'>
                 <Navbar />
-                <div className="row justify-content-center hero-container">
+                <div className="row justify-content-center contact-hero-container">
                     <div className="col-12 col-lg-7 my-auto">
                         <h1>Contact Us</h1>
                         <p>Home | Contact Us</p>
