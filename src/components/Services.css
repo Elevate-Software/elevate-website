@@ -21,19 +21,6 @@
   margin-bottom: 3em;
 }
 
-.services-card-comingsoon {
-  background-color: #7E00FF;
-  color: white;
-  border-radius: 8px;
-
-}
-
-.services-card-comingsoon-dark {
-  background-color:#222836;
-  color: white;
-  border-radius: 8px;
-}
-
 .services-description{
   font-family: poppins;
   margin-bottom: 3em;
@@ -49,12 +36,6 @@
 
 .services-text{
   width: 18rem;
-}
-
-.services-card-dark {
-  background-color:#222836;
-  color: white;
-  border-radius: 8px;
 }
 
 .services-label {
@@ -78,20 +59,6 @@
   box-shadow: none !important;
 }
 
-.services-card-dark .services-button {
-  color: #EFEFEF;
-  background-color: #171D29;
-  border-color: #171D29;
-}
-
-.services-card-dark .services-button:hover, 
-.services-card-dark .services-button:focus, 
-.services-card-dark .services-button:active {
-  color: #EFEFEF;
-  background-color: #131822;
-  border-color: #131822;
-  box-shadow: none !important;
-}
 
 .service-image{
   width: 4.5rem;

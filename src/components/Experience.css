@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+img.fluid {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.experience {
+    background-color: #F5F7FF;
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    overflow: hidden;
+    color: black;
+}
+
+.experience{
+    background-image: url('content/images/experience-vector.svg');
+    background-size: 30em;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.experience-vector{
+    position: relative;
+    left: 55.83%;
+    right: 0px;
+    top: 0px;
+    bottom: 9.79%;
+    width: 25em;
+}
+
+.experience-image{
+    width: 25em;
+    float: right;
+    padding: 3em 0em 3em 0em;
+}
+
+.experience-title{
+    color: black;
+    font-weight: 800;
+}
+
+.experience-text{
+    color: black;
+    font-size: 0.8rem !important;
+    font-weight: 400;
+    color: #757794;
+}
+
+.experience-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 18rem;
+    margin-bottom: 3em;
+    position: relative;
+    bottom: 45px;
+  }
