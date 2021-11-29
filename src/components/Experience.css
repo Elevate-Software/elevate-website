@@ -21,7 +21,7 @@ img.fluid {
 .experience{
     background-image: url('content/images/experience-vector.svg');
     background-size: 30em;
-    background-position: right;
+    background-position: right top;
     background-repeat: no-repeat;
 }
 
@@ -45,18 +45,42 @@ img.fluid {
     font-weight: 800;
 }
 
-.experience-text{
-    color: black;
-    font-size: 0.8rem !important;
+.experience-blue-text{
+    color: #3C5AE7;
+    font-family: Poppins;
+    font-size: 2rem !important;
     font-weight: 400;
-    color: #757794;
+}
+
+.experience-black-text{
+    color: black;
+    font-family: Poppins;
+    font-size: 2rem !important;
+    font-weight: 400;
 }
 
 .experience-card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 18rem;
-    margin-bottom: 3em;
-    position: relative;
-    bottom: 45px;
+    margin-bottom: 1em;
   }
+
+.experience-card-image{
+    width: 3.5rem;
+    float: left;
+    padding-right: .5rem;
+    padding-bottom: 2rem;
+}
+
+@media only screen
+  and (max-width: 480px) {
+    .experience-image{
+        display: none;
+    }
+}
+
+@media only screen
+  and (max-width: 700px) {
+    .experience-image {
+        display: none;
+    }
+
+}

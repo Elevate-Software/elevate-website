@@ -11,11 +11,12 @@ function Experience() {
             <div className='container'>
                 <div className="row justify-content-center experience-content-container">
                     <div className="col-12 col-lg-6 my-auto">
-                        <h1>Experienced More Than</h1>
-                        <h2>25 Years In Programming</h2>
+                        <span className="experience-blue-text">Experienced More Than</span><br />
+                        <span className="experience-black-text">25 Years In Programming</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed morbi habitant laoreet dui, aliquet nibh placerat. Semper quam magna elementum vitae turpis id. Tincidunt mattis quam morbi enim eget. Pulvinar quis pharetra, scelerisque in.</p>    
-                        <Card>
+                        <Card className="experience-card">
                             <Card.Body>
+                                <div><img className="experience-card-image" src={require('./content/images/check-image.png').default} alt="Elevate"/></div>
                                 <Card.Title>Trusted Partner</Card.Title>
                                 <Card.Text>
                                 Some quick example text to build on the card title and make up the bulk of
@@ -23,8 +24,9 @@ function Experience() {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                        <Card>
+                        <Card className="experience-card">
                             <Card.Body>
+                                <div><img className="experience-card-image" src={require('./content/images/check-image.png').default} alt="Elevate"/></div>
                                 <Card.Title>Responsibility</Card.Title>
                                 <Card.Text>
                                 Some quick example text to build on the card title and make up the bulk of
