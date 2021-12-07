@@ -12,7 +12,7 @@ function Experience() {
                 <div className="row justify-content-center experience-content-container">
                     <div className="col-12 col-lg-6 my-auto">
                         <span className="experience-blue-text">Experienced More Than</span><br />
-                        <span className="experience-black-text">25 Years In Programming</span>
+                        <span className="experience-black-text font-weight-bold">25 Years In Programming</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed morbi habitant laoreet dui, aliquet nibh placerat. Semper quam magna elementum vitae turpis id. Tincidunt mattis quam morbi enim eget. Pulvinar quis pharetra, scelerisque in.</p>    
                         <Card className="experience-card">
                             <Card.Body>

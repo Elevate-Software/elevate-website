@@ -14,10 +14,10 @@ function Home () {
         <>
             <Hero />
             <Services/>
-            <Experts />
-            <Team/>
-            <Hire />
+            {/* <Experts /> */}
             <Crypto />
+            <Hire />
+            
             <ContactForm />
             <Footer/>
         </>
