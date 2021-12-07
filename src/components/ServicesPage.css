@@ -28,14 +28,8 @@ img.fluid {
     width: 80%;
 }
 
-.services-image-left{
+.services-page-image{
     width: 20em;
-    float: right;
-}
-
-.services-image-right{
-    width: 20em;
-    float: left;
 }
 
 .services-content-container > p {

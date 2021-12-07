@@ -16,16 +16,13 @@ function Footer() {
                               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 text of the printing.
                           </p>
                           <div >
-                                  <a href="#">
+                                 {/*} <a href="#">
                                   <img src={require('./content/images/facebook.svg').default} className='social-logo' />
                                   </a>
                                   <a href="#">
                                   <img src={require('./content/images/twitter.svg').default} className='social-logo' />
-                                  </a>
-                                  <a href="#">
-                                  <img src={require('./content/images/instagram.svg').default} className='social-logo' />
-                                  </a>
-                                  <a href="#">
+                                  </a>*/}
+                                  <a href="https://www.instagram.com/elevatesoftware/?hl=en"  target="_blank">
                                   <img src={require('./content/images/instagram.svg').default} className='social-logo' />
                                   </a>
                           </div>
@@ -40,14 +37,14 @@ function Footer() {
                               </a>
                               <a href="#">
                                   Our Team
-                              </a>
-                              <a href="#">
+                                </a>
+                              <a href="/Services">
                                   Services
                               </a>
-                              <a href="#">
+                              <a href="/#crypto">
                                   Automation
                               </a>
-                              <a href="#">
+                              <a href="/#Contact">
                                   Contact Us
                               </a>
                           </div>

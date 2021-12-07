@@ -43,11 +43,11 @@ class Navbar extends Component {
                                     </a>
                                 </div>
 
-                                <div className="flex-fill">
+                                { /* <div className="flex-fill">
                                     <a href="/#team" className="custom-link px-4 navlink">
                                         Team
                                     </a>
-                                </div>
+                                </div> */}
 
                                 <div className="flex-fill">
                                     <a href="/Services" className="custom-link px-4 navlink">
@@ -60,12 +60,6 @@ class Navbar extends Component {
                                         Automation
                                     </a>
                                 </div>
-
-                                {/* <div className="flex-fill">
-                                    <a href="/#contact" className="custom-link px-4 navlink">
-                                        Contact Us
-                                    </a>
-                                </div> */}
 
                                 <div className="flex-fill">
                                     <a href="/Contact">

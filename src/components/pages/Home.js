@@ -7,7 +7,6 @@ import Hire from '../Hire';
 import Crypto from '../Crypto';
 import Footer from '../Footer';
 import ContactForm from '../ContactUs'
-import Team from '../Team'
 
 function Home () {
     return (
@@ -17,7 +16,6 @@ function Home () {
             {/* <Experts /> */}
             <Crypto />
             <Hire />
-            
             <ContactForm />
             <Footer/>
         </>
